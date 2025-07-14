@@ -1,0 +1,59 @@
+#rd-serials-table_wrapper .dataTables_length select {
+    width: 60px;
+}
+
+#rd-serials-table_wrapper .dataTables_length, 
+#rd-serials-table_wrapper .dataTables_filter {
+    margin-bottom: 5px;
+}
+
+/* Improved One-Row Form Layout */
+.rds-form-row {
+    display: flex;
+    gap: 15px; /* Provides space between form fields */
+    align-items: stretch; /* Makes all items stretch to the same height */
+}
+
+/* Target all direct children of the form row */
+.rds-form-row > .swal2-input,
+.rds-form-row > .swal2-textarea {
+    flex: 1 1 0; /* Allows items to grow and shrink properly from a zero basis */
+    margin: 0 !important; /* Override default SweetAlert2 margins */
+    font-size: 1em !important;
+    width: auto !important; /* Let flexbox control the width */
+}
+
+/* Specific adjustments for the textarea */
+.rds-form-row > .swal2-textarea {
+    padding-top: 0.7em;
+    padding-bottom: 0.7em;
+    line-height: 1.2;
+    resize: vertical; /* Allow users to resize it vertically if needed */
+}
+
+/* Style for the table inside the popup */
+.rds-swal-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+.rds-swal-table th, 
+.rds-swal-table td {
+    text-align: left;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    vertical-align: middle;
+}
+
+.rds-swal-table th {
+    background-color: #f7f7f7;
+}
+
+.rds-swal-table .button {
+    margin-right: 5px;
+    padding: 2px 10px;
+    height: auto;
+    line-height: 1.6;
+    font-size: 13px;
+}

@@ -1,0 +1,48 @@
+/* Royal Doctors Serial - Frontend Form Styles */
+
+#rd-booking-form {
+    max-width: 500px;
+    margin: 20px auto;
+    padding: 25px;
+    background: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+#rd-booking-form .form-group {
+    margin-bottom: 15px;
+}
+
+#rd-booking-form label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+#rd-booking-form input[type="text"],
+#rd-booking-form input[type="date"],
+#rd-booking-form input[type="tel"],
+#rd-booking-form input[type="email"],
+#rd-booking-form select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box; /* Important for padding and width */
+}
+
+#rd-booking-form button[type="submit"] {
+    width: 100%;
+    padding: 12px;
+    background-color: #0073aa;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#rd-booking-form button[type="submit"]:hover {
+    background-color: #005a87;
+}
